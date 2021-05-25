@@ -51,7 +51,7 @@ alert('you made grate job '+ userN +'❤️')
 
 
 let animale = prompt('How much I like animal from (1 to 10) ?' )
-for(let i=1 ; i<4;i++) {
+for(let i=1 ; i<4; i++) {
     if (animale<=6){  
         alert('tow high')
         animale= prompt('please try again')
@@ -76,10 +76,10 @@ for (let i=0;i<arr.length;i++){
 alert(statment)
 
 let arrOfColor=['green','pink','black','white']
+
 let color =prompt( "what is the favorite color ?")
-
-
-for(let attempts=0;attempts<6;attempts++){
+let count=0
+for(let attempts=0;attempts<5;attempts++){
     for(let i=0;i<arrOfColor.length;i++){
             // console.log('color:',color)
             // console.log(color === arrOfColor[i],'array')
@@ -87,22 +87,21 @@ for(let attempts=0;attempts<6;attempts++){
                 console.log('after if:',color)
                 console.log(arrOfColor[i])
                 alert('good job you know one of my favourite color ')
-                score++
+                count++
                 break;
             }
+            console.log(i)
         }
-    if(score===1){
+    if(count===1){
         break;
     }else{
-        alert('please try again')
+        // alert('please try again')
         color =prompt( "what is the favorite color ?")
     }
-   
-    
-    
+      
 console.log('attempts',attempts)
 } 
-console.log('score',score)
+console.log('score',count)
 
 let col='';
  for(let i=0;i<arrOfColor.length;i++){
@@ -111,7 +110,9 @@ let col='';
  }
  
  alert('my favorite color is : '+ col)
- alert('your  score is: ', score)
+ score= score+count
+ console.log(score)
+ alert('your  score is:',score)
 
 
 
