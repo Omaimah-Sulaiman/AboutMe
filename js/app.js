@@ -75,6 +75,8 @@ for (let i=0;i<arr.length;i++){
 }
 alert(statment)
 
+
+
 let arrOfColor=['green','pink','black','white']
 
 let color =prompt( "what is the favorite color ?")
@@ -113,6 +115,64 @@ let col='';
  score= score+count
  console.log(score)
  alert('your  score is:',score)
+
+
+// make some of dome 
+
+if (sport=== 'yes'||sport==='y'){
+    sport=1;
+    console.log(sport)
+}else{
+    sport=0
+    console.log(sport)
+
+}
+if (food=== 'yes'||food==='y'){
+    food=1;
+    console.log(food)
+}else{
+    food=0
+    console.log(food)
+
+}
+if (smoke === 'yes'||smoke ==='y'){
+    smoke=0;
+    console.log(smoke)
+}else{
+    smoke=1
+    console.log(smoke)
+
+}
+let count = smoke + food +sport 
+console.log(count);
+
+function user(){
+if (count<2){
+    document.getElementById("unhealthy").style.display='block' 
+    console.log(count);
+}else{
+    document.getElementById("healthy").style.display='block' 
+console.log(count)
+}
+
+}
+user();
+
+function aboutUser(){
+    if (count<2){
+    
+    document.getElementById("userBad").innerHTML="welcome " +userN +' Based on your answers, we noticed that you do not care for your health well. Please leave bad habits';
+    console.log(count);
+}else{
+     
+    document.getElementById("userGood").innerHTML= "welcome " +userN +' Based on your answers, we noticed that you care for your health very  well. Please  keep doing that';
+console.log(count)
+}
+
+}
+aboutUser();
+
+
 
 
 

@@ -35,46 +35,25 @@ h1{
   text-align: center;
   padding: auto;
 }
-#ifYes{
-  padding: 20px;
-  margin-right:50px ;
-  flex-direction: row;
-}
 
-.top{
-  background-color: rgb(185, 206, 245);
+
+.topTen{
+  background-color: rgb(208, 219, 240);
   /* margin: auto; */
-  width: 50%;
+  width: 30%;
   border: 3px solid rgb(180, 221, 180);
   padding: 50px;
   border-radius: 15%;
   /* height: 100px; */
-  margin-bottom: 0%;
+  margin-top: 20px;
   
 
 }
-input{
-margin-bottom: 2px;
-padding:5px;
-border:0;
-border-radius: 50px;
-}
-#q1{
-  margin-left: 179px;
+.article{
+  padding: 10px;
+  text-align: center;
 
 }
-#q2{
-  margin-left: 175px;
-
-}
-#q3{
-  margin-left: 70px;
-
-}
-#q4{
-  margin-left: 30px;
-
-}
-#q5{
-  margin-top: 10px;
+img{
+  margin-left: 30%;
 }
