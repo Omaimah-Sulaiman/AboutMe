@@ -148,30 +148,30 @@ if (smoke === 'yes'||smoke ==='y'){
     console.log(smoke)
 
 }
-let count = smoke + food +sport 
-console.log(count);
+let count1 = smoke + food +sport 
+console.log(count1);
 
 function user(){
-if (count<2){
+if (count1<2){
     document.getElementById("unhealthy").style.display='block' 
-    console.log(count);
+    console.log(count1);
 }else{
     document.getElementById("healthy").style.display='block' 
-console.log(count)
+console.log(count1)
 }
 
 }
 user();
 
 function aboutUser(){
-    if (count<2){
+    if (count1<2){
     
     document.getElementById("userBad").innerHTML="welcome " +userN +' Based on your answers, we noticed that you do not care for your health well. Please leave bad habits';
-    console.log(count);
+    console.log(count1);
 }else{
      
     document.getElementById("userGood").innerHTML= "welcome " +userN +' Based on your answers, we noticed that you care for your health very  well. Please  keep doing that';
-console.log(count)
+console.log(count1)
 }
 
 }
