@@ -1,4 +1,5 @@
 'use strict';
+function superFun(){
 let score=0;
 let userN =prompt('what is your name ?')
 alert('welcome 🥰'+userN)
@@ -177,7 +178,6 @@ console.log(count1)
 }
 aboutUser();
 
+}
 
-
-
-
+superFun();
