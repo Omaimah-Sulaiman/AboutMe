@@ -55,7 +55,7 @@ for(let i=1 ; i<=4; i++) {
     let animale = prompt('How much I like animal from (1 to 10) ?' )
      animale=Number(animale);
     if (animale===6){  
-        alert('awseom')
+        alert('gteat')
         score++
         break
         
@@ -120,7 +120,7 @@ let col='';
  alert('my favorite color is : '+ col)
  score= score+count
  console.log(score)
- alert('your  score is:',score)
+ alert('your  score is:'+score)
 
 
 // make some of dome 
