@@ -1,8 +1,9 @@
 body{
-  background-color: antiquewhite ;
+  /* background-color: antiquewhite ; */
+border: whitesmoke;
 }
 #head{
-background: rgb(58, 58, 27);
+background: rgb(196, 196, 191);
 width: 100%;
 color: wheat;
 height: 70px;
@@ -10,7 +11,7 @@ padding-top: 0%;
   
 }
 #footer{
-    background: rgb(58, 58, 27);
+    background: rgb(196, 196, 191);
     width:100%;
     height:100px;
     /* position:absolute; */
@@ -52,8 +53,62 @@ h1{
 .article{
   padding: 10px;
   text-align: center;
-
+  
 }
 img{
   margin-left: 30%;
+}
+aside{
+  
+  grid-column-start:3 ;
+  grid-column-end:4 ;
+  grid-row-start:2 ;
+  grid-row-end: 5;
+  width:70% ;
+  margin-left:30% ;
+  /* margin-top:200px ; */
+  margin-bottom:30px ;
+}
+.articalMain{
+  grid-row-start: 2;
+  grid-column-start:1 ;
+  grid-column-end: 3;
+  text-align: left;
+  margin-left: 100px;
+
+}
+.mainImg{
+  width: 100%;
+  height: 70%;
+  /* margin:10% ; */
+  margin-left: 30%;
+}
+.main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+.card {
+text-align: center;
+margin-bottom: 30px;
+background-color: rgb(126, 126, 86);
+border-radius:5% ;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.cardImage{
+  width: 50%;
+  margin-right: 30%;
+}
+#mainImg{
+  text-align: center;
+   
 }
